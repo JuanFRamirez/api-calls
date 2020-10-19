@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hidden{
+    opacity: 0.8;
+    pointer-events: none;
+}
+.insertion,.container{
+    padding: 1rem;
+}
+
+form input{
+    width: 50%;
+    padding: 0.5rem;
+}
+form button{
+    width: 25%;
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
+.editar,.eliminar{
+    width: auto;
+    padding: 0.5rem;
+}
+.holder{
+    padding: 1.2rem;
+    display: flex;
+    gap: 1.2rem;
+}
